@@ -28,6 +28,7 @@ h4 {
 }
 
 nav {
+    width: auto;
     height: 70px;
     display: flex;
     justify-content: space-around;
