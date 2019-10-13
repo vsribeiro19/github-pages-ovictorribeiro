@@ -46,3 +46,36 @@ nav {
     list-style-type: none;
     -moz-text-decoration-style: none;
 }
+
+.container {
+    box-sizing: border-box;
+    display: block;
+}
+
+
+/*EM CONSTRUÇÃO*/
+
+.label {
+    text-align: center;
+    margin-top: 3%;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 58px;
+    font-weight: 900;
+    ;
+}
+
+.autor {
+    margin-left: 77%;
+    font-weight: 500;
+    font-size: 15pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.message {
+    text-align: center;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
