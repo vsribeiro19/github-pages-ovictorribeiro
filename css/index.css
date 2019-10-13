@@ -28,7 +28,11 @@ h4 {
 }
 
 nav {
+<<<<<<< 1617f497d5bd88d13445f9f1442c53d7a839e124
     width: auto;
+=======
+    width: 100%;
+>>>>>>> testando
     height: 70px;
     display: flex;
     justify-content: space-around;
