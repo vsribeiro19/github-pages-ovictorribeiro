@@ -7,8 +7,8 @@
 h4 {
     font-size: 16pt;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 15px;
-    margin-top: 2.5px;
+    margin-left: 85px;
+    margin-top: 2.2px;
     color: #fff;
 }
 
@@ -40,15 +40,13 @@ nav {
     /*background: rgba(236, 240, 241, 0.6);*/
 }
 
-.links {
+#links {
     position: relative;
-    width: 55%;
-    right: 4%;
+    width: 68%;
     font-family: 'Open Sans', sans-serif;
     font-size: 15pt;
     display: flex;
     justify-content: space-around;
-    padding-top: 2px;
     list-style-type: none;
     -moz-text-decoration-style: none;
     color: #fff;
