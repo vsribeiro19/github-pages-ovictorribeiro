@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" media="screen" href="css/mediaq.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="icon" href="img/eu.jpg">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -16,34 +17,49 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark">
-        </div>
-        <div class="logo">
-            <div class="circle">
-            </div>
-            <!-- <img src="img/eu.jpg"> -->
-            <h4>Victor Ribeiro</h4>
-        </div>
-
-        <button class="navbar-toggler" data-toggle="collapse" data-target="nav-principal">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="nav-principal">
-            <ul id="links" class="navbar-nav">
-                <li class="navbar-item">Quem sou eu</li>
-                <li class="navbar-item">Projetos</li>
-                <li class="navbar-item">Blog</li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <nav class=" navbar navbar-expand-sm navbar-light ">
+            <div class="container">
+                <div>
+                    <h4>
+                        Victor Ribeiro
+                    </h4>
+                </div>
+                <a href="index.html" class="nav-brand">
+                    <img id="logo" src="img/eu.jpg" alt="logo" width="70">
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-teste">
+                        <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse  " id="nav-teste">
+                    <div class="nav col-md-11 d-flex justify-content-around">
+                        <ul class="nav ">
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-dark">Sobre mim</a>
+                            </li>
+                        </ul>
+                        <ul class="nav ">
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-dark">Meus projetos</a>
+                            </li>
+                        </ul>
+                        <ul class="nav ">
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-dark">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </header>
     <div class="container">
         <h2 class="message">"Eu prefiro ser essa metamorfose ambulante. Do que ter aquela velha opinião formada sobre tudo..."</h2>
         <div class="autor">
             - Raul Seixas
         </div>
         <div class="ms-principal">
-            <h2>Olá,</h2>
-            <p>
+            <h2 class="display-4">Olá,</h2>
+            <p class="lead text-xl">
                 meu nome é Victor Ribeiro. Sou estudante do 3º semestre em Análise e Desenvolvimento de Sistemas, pelo Centro Universitário Moura Lacerda. Assim como a frase acima, este site estará sempre em um processo de metamorfose ambulante. O OVictorRibeiro será
                 o resultado do meu constante aprendizado. Por isso, talvez amanhã o layout esteja diferente. Talvez esteja mais bonito, menos bonito...mais robusto. Talvez esteja todo preto, vermelho, rosa....quem sabe? Talvez nem no ar esteja. A intenção
                 é aprender a cada dia. E tudo "ao vivo". A intenção do site não é lucrar, nada do tipo. A intenção é somente aprender todos os dias. E o site será o resultado desse aprendizado. Neste momento o site é estático, ou seja, apenas HTML/CSS
