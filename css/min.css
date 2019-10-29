@@ -9,7 +9,7 @@
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 96%;
+    width: 95%;
 }
 
 h4 {
@@ -33,6 +33,6 @@ h4 {
 
 p {
     margin-top: 220px;
-    width: 100%;
+    width: 95%;
     font-family: 'Merriweather Sans', sans-serif;
 }
