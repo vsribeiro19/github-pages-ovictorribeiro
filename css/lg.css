@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+.autor {
+    margin-left: 55%;
+    font-size: 13pt;
+}
+
 h4 {
     font-size: 15pt;
     margin-left: 110%;
@@ -11,4 +16,5 @@ h4 {
 
 p {
     margin-top: 90px;
+    width: 70%;
 }
