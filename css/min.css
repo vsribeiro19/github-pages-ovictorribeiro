@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.message {
+    font-size: 13pt;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 96%;
+}
+
+h4 {
+    /*  position: relative;
+    right: 30%;
+    font-size: 15pt;
+    width: 100%;*/
+    font-size: 15pt;
+    margin-left: 110%;
+    width: 100%;
+}
+
+.autor {
+    font-size: 11pt;
+    margin-left: 65%;
+    border: 1px solid red;
+}
+
+.nav {
+    justify-content: center;
+}
+
+p {
+    border: 1px solid red;
+    margin-top: 220px;
+    width: 100%;
+    font-family: 'Merriweather Sans', sans-serif;
+}

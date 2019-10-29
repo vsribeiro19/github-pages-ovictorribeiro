@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h4 {
+    font-size: 15pt;
+    margin-left: 90%;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.nav {
+    justify-content: space-around;
+    position: relative;
+    left: 22px;
+}
+
+p {
+    border: 1px solid red;
+    width: 100%;
+}
