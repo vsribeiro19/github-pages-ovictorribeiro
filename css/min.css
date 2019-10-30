@@ -33,6 +33,7 @@ h4 {
 
 p {
     margin-top: 220px;
-    width: 95%;
+    width: 100%;
+    text-align: justify;
     font-family: 'Merriweather Sans', sans-serif;
 }
